@@ -323,7 +323,28 @@ textarea{
     .about-group{
         flex-direction: column;
     }
-    .what-img-title-des-group , .flex-div-of-summery , .main-div-footer{
+
+    .main-header-div{
+        background-image: none;
+        justify-content: center;
+        padding: 20px;
+    }
+    .main-banner-div {
+        flex-direction: column;
+    }
+    .banner-img{
+        width: 50vw;
+        margin: 0;
+    }
+
+    nav{
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+    }
+
+    nav , .nav-li , .what-img-title-des-group , .flex-div-of-summery , .main-div-footer{
         flex-direction: column;
     }
     footer{
